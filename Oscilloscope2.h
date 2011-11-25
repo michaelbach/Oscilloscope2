@@ -7,6 +7,7 @@
 //	History
 //	=======
 //
+//	2011-11-25	added to github (1st time!)
 //	2011-11-25	a little cleanup to more modern obj-c
 //	2011-01-26	added lineWidth
 //	2010-03-21	renamed and extended "fullscale", general code cleanup
@@ -32,7 +33,7 @@ In Interface Builder: instantiate a Custom View, set it's class to Oscilloscope2
 	NSUInteger numberOfPoints, numberOfTraces, maxNumberOfTraces;
 	CGFloat width, height, fullscale, lineWidth;
 	NSColor *backgroundColor, *separatorColor;
-	BOOL isTraceZeroTop, isShiftTraces;
+	BOOL isTraceZeroOnTop, isShiftTraces;
 }
 
 
@@ -52,7 +53,7 @@ In Interface Builder: instantiate a Custom View, set it's class to Oscilloscope2
 @property	(retain)	NSColor *backgroundColor;				// default: very light grey
 @property	(retain)	NSColor *separatorColor;				// default: grey
 @property	(readwrite) CGFloat lineWidth;						// the pensize for the traces
-@property	(readwrite) BOOL isTraceZeroTop;					// trace ordering: trace zero is on top, or on bottom
+@property	(readwrite) BOOL isTraceZeroOnTop;					// trace ordering: trace zero is on top, or on bottom
 @property	(readwrite)	BOOL isShiftTraces;						// if YES: traces are moving, new values at right. Else just replacing
 
 

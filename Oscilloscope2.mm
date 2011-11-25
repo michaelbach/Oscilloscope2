@@ -21,14 +21,14 @@ NSMutableArray  *traceColors, *allTraces; // has maxChannels objects, each is a 
 @synthesize separatorColor;
 @synthesize isShiftTraces;
 @synthesize lineWidth;
-@synthesize isTraceZeroTop;
+@synthesize isTraceZeroOnTop;
 @synthesize maxNumberOfTraces;
 
 
 - (id) initWithFrame:(NSRect)frameRect {	//NSLog(@"Oscilloscope>init");
 	if ((self = [super initWithFrame: frameRect]) != nil) {
 		width = frameRect.size.width;  height = frameRect.size.height;
-		[self setIsTraceZeroTop: YES];
+		[self setIsTraceZeroOnTop: YES];
 		[self setFullscale: 3.0f];
 		numberOfPoints = (NSUInteger) round(width);
 		maxNumberOfTraces = kOscilloscope2MaxNumberOfTraces;
@@ -75,7 +75,7 @@ NSMutableArray  *traceColors, *allTraces; // has maxChannels objects, each is a 
 	NSUInteger numPnts = [[allTraces objectAtIndex: 0] count];
 	for (NSUInteger iTrace = 1; iTrace < numberOfTraces; ++iTrace) { // draw trace separator lines
 		NSBezierPath *path = [NSBezierPath bezierPath];
-		CGFloat yTrace = ((isTraceZeroTop) ? (numberOfTraces-iTrace) : (iTrace)) * height / numberOfTraces;
+		CGFloat yTrace = ((isTraceZeroOnTop) ? (numberOfTraces-iTrace) : (iTrace)) * height / numberOfTraces;
 		[path moveToPoint: NSMakePoint(0, yTrace)]; [path lineToPoint: NSMakePoint(numPnts, yTrace)];
 		[separatorColor set];
 		[path stroke];
@@ -85,7 +85,7 @@ NSMutableArray  *traceColors, *allTraces; // has maxChannels objects, each is a 
 		NSMutableArray *aTrace = [allTraces objectAtIndex: iTrace];
 		NSBezierPath *path = [NSBezierPath bezierPath];
 		[path setLineWidth: [self lineWidth]];
-		CGFloat yTrace = (isTraceZeroTop) ? (numberOfTraces-iTrace-0.5) : (iTrace+0.5);
+		CGFloat yTrace = (isTraceZeroOnTop) ? (numberOfTraces-iTrace-0.5) : (iTrace+0.5);
 		SEL lineToPointSel = @selector(lineToPoint:); // avoiding the method calling chain
 		IMP lineToPointFunPtr = [path methodForSelector: lineToPointSel]; // speeds up a little
 		for (NSUInteger iSample=0; iSample < numPnts; ++iSample) {
