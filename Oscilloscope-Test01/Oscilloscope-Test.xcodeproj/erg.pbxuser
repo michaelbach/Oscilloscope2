@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* Oscilloscope_TestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {734, 889}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 682}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* Oscilloscope_TestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 1008}}";
+			sepNavSelRange = "{1558, 0}";
+			sepNavVisRange = "{0, 2287}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3E2DD0CE1199720D00078E42 /* Oscilloscope-Test */;
+		activeTarget = 8D1107260486CEB800E47090 /* Oscilloscope-Test */;
+		codeSenseManager = 3E2DD0EC1199721900078E42 /* Code sense */;
+		executables = (
+			3E2DD0CE1199720D00078E42 /* Oscilloscope-Test */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					556,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 295268877;
+			PBXWorkspaceStateSaveDate = 295268877;
+		};
+		perUserProjectItems = {
+			3E2DD113119976B700078E42 /* PBXTextBookmark */ = 3E2DD113119976B700078E42 /* PBXTextBookmark */;
+			3E2DD114119976B700078E42 /* PBXTextBookmark */ = 3E2DD114119976B700078E42 /* PBXTextBookmark */;
+			3E2DD115119976B700078E42 /* PBXTextBookmark */ = 3E2DD115119976B700078E42 /* PBXTextBookmark */;
+			3E2DD116119976B700078E42 /* PBXTextBookmark */ = 3E2DD116119976B700078E42 /* PBXTextBookmark */;
+			3E2DD117119976B700078E42 /* PBXTextBookmark */ = 3E2DD117119976B700078E42 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3E2DD0EB1199721900078E42 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3E2DD0CE1199720D00078E42 /* Oscilloscope-Test */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Oscilloscope-Test";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3E2DD0EB1199721900078E42 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3E2DD0EC1199721900078E42 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3E2DD113119976B700078E42 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* Oscilloscope_TestAppDelegate.h */;
+		name = "Oscilloscope_TestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	3E2DD114119976B700078E42 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* Oscilloscope_TestAppDelegate.m */;
+		name = "Oscilloscope_TestAppDelegate.m: 38";
+		rLen = 0;
+		rLoc = 1558;
+		rType = 0;
+		vrLen = 2287;
+		vrLoc = 0;
+	};
+	3E2DD115119976B700078E42 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8A4EF14011561B4C00E26C7F /* Oscilloscope2.h */;
+		name = "Oscilloscope2.h: 45";
+		rLen = 0;
+		rLoc = 1884;
+		rType = 0;
+		vrLen = 2844;
+		vrLoc = 0;
+	};
+	3E2DD116119976B700078E42 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8A4EF14111561B4C00E26C7F /* Oscilloscope2.mm */;
+		name = "Oscilloscope2.mm: 23";
+		rLen = 0;
+		rLoc = 992;
+		rType = 0;
+		vrLen = 2858;
+		vrLoc = 0;
+	};
+	3E2DD117119976B700078E42 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8A4EF14111561B4C00E26C7F /* Oscilloscope2.mm */;
+		name = "Oscilloscope2.mm: 104";
+		rLen = 0;
+		rLoc = 4663;
+		rType = 0;
+		vrLen = 2827;
+		vrLoc = 26;
+	};
+	8A4EF14011561B4C00E26C7F /* Oscilloscope2.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 864}}";
+			sepNavSelRange = "{1884, 0}";
+			sepNavVisRange = "{0, 2844}";
+		};
+	};
+	8A4EF14111561B4C00E26C7F /* Oscilloscope2.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 2044}}";
+			sepNavSelRange = "{4663, 0}";
+			sepNavVisRange = "{26, 2827}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Oscilloscope-Test */ = {
+		activeExec = 0;
+		executables = (
+			3E2DD0CE1199720D00078E42 /* Oscilloscope-Test */,
+		);
+	};
+}
