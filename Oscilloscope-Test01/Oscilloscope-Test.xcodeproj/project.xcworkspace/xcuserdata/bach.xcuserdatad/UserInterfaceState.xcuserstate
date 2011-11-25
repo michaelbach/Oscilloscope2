@@ -4092,7 +4092,7 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>343905371.314726</real>
+		<real>343905379.91663897</real>
 		<string>{0, 2949}</string>
 		<string>{1397, 0}</string>
 		<dict>
@@ -4420,7 +4420,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>343905371.314816</real>
+		<real>343905373.26795101</real>
 		<string>{1496, 1622}</string>
 		<dict>
 			<key>$class</key>
@@ -6638,7 +6638,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>343905371.31651002</real>
+		<real>343905379.91814899</real>
 		<string>{0, 2949}</string>
 		<string>{1397, 0}</string>
 		<string>@interface Oscilloscope2</string>
